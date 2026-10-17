@@ -1,0 +1,55 @@
+EXERCICE : CHEVAUX DE COURSE
+
+OBJECTIF
+Trouver la plus petite différence de puissance
+entre deux chevaux.
+
+ENTRÉES
+Ligne 1 : N, le nombre de chevaux.
+Les N lignes suivantes : la puissance Pi
+de chaque cheval.
+
+SORTIE
+Afficher un entier : la plus petite différence
+de puissance entre deux chevaux.
+
+EXEMPLE
+Entrée :
+3
+5
+8
+9
+
+Sortie :
+1
+
+EXPLICATION
+La différence entre 8 et 9 est égale à 1.
+
+TRAVAIL À RÉALISER
+Écrire un programme en C qui résout le problème.
+
+PLAN
+1. Lire le nombre de chevaux.
+2. Lire les puissances.
+3. Trier les puissances.
+4. Chercher le plus petit écart.
+5. Afficher le résultat.
+
+BILAN — ALGORITHME CHEVAUX DE COURSE
+
+1. Lire le nombre de chevaux N.
+2. Lire les N puissances et les stocker dans un tableau.
+3. Trier les puissances dans l'ordre croissant avec qsort().
+4. Initialiser difference avec l'écart entre les deux premières puissances.
+5. Parcourir le tableau avec une boucle for commençant à l'indice 1.
+6. Calculer ecart entre chaque puissance et la précédente.
+7. Si ecart < difference, remplacer difference par ecart.
+8. Afficher difference avec printf().
+9. Terminer le programme avec return 0;
+
+À RETENIR
+- La boucle de lecture commence à i = 0.
+- La boucle de comparaison commence à i = 1.
+- ecart : différence calculée actuellement.
+- difference : plus petit écart trouvé jusqu'à présent.
