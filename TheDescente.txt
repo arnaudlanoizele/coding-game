@@ -1,0 +1,21 @@
+Algorithme:
+
+Initialiser la hauteur maximale à -1.
+Parcourir les 8 montagnes et lire leur hauteur.
+Si une hauteur dépasse le maximum, mémoriser cette hauteur et le numéro de la montagne.
+Après les 8 lectures, afficher le numéro retenu.
+Recommencer au tour suivant.
+
+
+
+Variable
+Ce qu’elle représente
+mountainH
+La hauteur de la montagne qu’on lit actuellement
+maxHeight
+La plus grande hauteur rencontrée jusqu’ici dans ce tour
+i
+Le numéro de la montagne qu’on lit : 0 à 7
+maxIndex
+Le numéro de la montagne correspondant à maxHeight
+
