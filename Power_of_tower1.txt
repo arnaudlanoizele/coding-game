@@ -1,0 +1,16 @@
+4 entiers lightX lightY initialTX initialTY. 
+(lightX, lightY) indique la position de l'éclair. 
+(initialTX, initialTY) indique la position initiale de Thor.
+
+x = gauche droite horizontal
+y = haut bas vertical
+
+initialTX < lightX → Thor va vers l’est, X augmente.
+initialTX > lightX → Thor va vers l’ouest, X diminue.
+initialTY < lightY → Thor va vers le sud, Y augmente.
+initialTY > lightY → Thor va vers le nord, Y diminue.
+
+Si les coordonnées sont égales sur un axe, aucun déplacement sur cet axe.
+
+N = nord ; S = sud ; E = est ; W = ouest.
+Une diagonale combine deux directions : NE, NW, SE ou SW.
