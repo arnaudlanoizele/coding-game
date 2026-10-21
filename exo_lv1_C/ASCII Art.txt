@@ -1,0 +1,53 @@
+L'art ASCII permet de représenter des formes en
+ utilisant des caractères. Dans notre cas, ces 
+ formes sont précisément des mots. Par exemple,
+  le mot "MANHATTAN" pourra être affiché ainsi 
+  en art ASCII :
+
+ 
+# #  #  ### # #  #  ### ###  #  ###
+### # # # # # # # #  #   #  # # # #
+### ### # # ### ###  #   #  ### # #
+# # # # # # # # # #  #   #  # # # #
+# # # # # # # # # #  #   #  # # # #
+ 
+​Votre mission : Ecrire un programme capable 
+d'afficher une ligne de texte en art ASCII dans
+ un style qui vous est fourni en entrée.
+
+ Entrée
+Ligne 1 : la largeur L d'une lettre représentée en art 
+ASCII. Toutes les lettres font la même largeur.
+
+Ligne 2 : la hauteur H d'une lettre représentée en art 
+ASCII. Toutes les lettres font la même hauteur.
+
+Ligne 3 : La ligne de texte T, composée de N caractères 
+ASCII
+
+Lignes suivantes : La chaîne de caractères 
+ABCDEFGHIJKLMNOPQRSTUVWXYZ? représentée en art ASCII.
+
+Contraintes
+0 < L < 30
+0 < H < 30
+0 < N < 200
+
+Entrée
+4
+5 
+E
+ #  ##   ## ##  ### ###  ## # # ###  ## # # #   # # ###  #  ##   #  ##   ## ### # # # # # # # # # # ### ### 
+# # # # #   # # #   #   #   # #  #    # # # #   ### # # # # # # # # # # #    #  # # # # # # # # # #   #   # 
+### ##  #   # # ##  ##  # # ###  #    # ##  #   ### # # # # ##  # # ##   #   #  # # # # ###  #   #   #   ## 
+# # # # #   # # #   #   # # # #  #  # # # # #   # # # # # # #    ## # #   #  #  # # # # ### # #  #  #       
+# # ##   ## ##  ### #    ## # # ###  #  # # ### # # # #  #  #     # # # ##   #  ###  #  # # # #  #  ###  #  
+Sortie
+### 
+#   
+##  
+#   
+### 
+
+chaque lettre occupe 4 caractères en largeur et 5 lignes
+en hauteur.
